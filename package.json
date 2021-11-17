@@ -1,0 +1,9 @@
+{
+  "name": "@typicalbot/events",
+  "version": "0.1.0",
+  "description": "Minimalistic event library for Discord.js",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
