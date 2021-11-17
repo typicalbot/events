@@ -1,4 +1,4 @@
-# TypicalBot Commands
+# TypicalBot Events
 
 Minimalistic event library for [Discord.js](https://github.com/discordjs/discord.js).
 
