@@ -1,5 +1,3 @@
-import { EventHandler } from "./EventHandler";
+import { EventHandler } from './EventHandler';
 
-export {
-    EventHandler
-};
+export { EventHandler };

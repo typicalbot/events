@@ -1,4 +1,4 @@
-import { Client, ClientEvents } from "discord.js";
+import { Client, ClientEvents } from 'discord.js';
 
 export type EventHandler<E extends keyof ClientEvents> = (
     client: Client,
