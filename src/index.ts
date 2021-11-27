@@ -1,3 +1,5 @@
-import { EventHandler } from './EventHandler';
+import EventHandler from './EventHandler';
+import EventCollection from './EventCollection';
+import registerEvents from './EventRegistry';
 
-export { EventHandler };
+export { EventHandler, EventCollection, registerEvents };

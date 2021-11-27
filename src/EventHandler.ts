@@ -1,6 +1,8 @@
 import { Client, ClientEvents } from 'discord.js';
 
-export type EventHandler<E extends keyof ClientEvents> = (
-    client: Client,
+type EventHandler<C extends Client, E extends keyof ClientEvents> = (
+    client: C,
     ...args: ClientEvents[E]
 ) => Promise<unknown> | unknown;
+
+export default EventHandler;
